@@ -14,17 +14,17 @@ body:
         Please describe what you want to write about, how it would be relevant, and what format you would like to submit your article in (tutorial, guide, code example, blog...)
 
 
-        ### Introduction
+        Introduction
 
         - To-do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
 
 
-        ### Goals
+        Goals
 
         - In this article, we will learn about the Webiny CMS and how we can use this in a React application by working on building a to-do app.
 
 
-        ### Outline
+        Outline
 
         - What is a Headless CMS?
 
