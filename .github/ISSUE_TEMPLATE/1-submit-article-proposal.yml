@@ -10,7 +10,7 @@ body:
   - type: textarea
     attributes:
       label: Introduction
-      description: Describe what you want to write about, here is a sample introduction
+      description: Please describe what you want to write about, below is a sample introduction.
 
         To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
 
