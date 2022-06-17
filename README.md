@@ -5,7 +5,7 @@
 </p>
 <p align="center">
   <a href="https://www.webiny.com">Website</a> |
-  <a href="https://www.webiny.com/docs/webiny/introduction/">Documentation</a> |
+  <a href="https://www.webiny.com/docs/get-started/install-webiny">Documentation</a> |
   <a href="https://www.webiny.com/slack">Community Slack</a> |
   <a href="https://github.com/webiny/webiny-js/discussions">Forum</a> |
   <a href="https://twitter.com/WebinyCMS">Twitter</a>
