@@ -9,7 +9,7 @@ body:
 
   - type: markdown
       value: |
-        ## Abstract 
+        Abstract 
         Please describe what you want to write about, how it would be relevant, and what format you would like to submit your article in (tutorial, guide, code example, blog...).
         Here is an example abstract outline.
 
