@@ -1,3 +1,30 @@
+<p align="center">
+  <img src="./static/webiny-logo.svg" width="250">
+  <br><br>
+  <strong>Open-Source Serverless Enterprise CMS</strong>
+</p>
+<p align="center">
+  <a href="https://www.webiny.com">Website</a> |
+  <a href="https://www.webiny.com/docs/webiny/introduction/">Documentation</a> |
+  <a href="https://www.webiny.com/slack">Community Slack</a> |
+  <a href="https://github.com/webiny/webiny-js/discussions">Forum</a> |
+  <a href="https://twitter.com/WebinyCMS">Twitter</a>
+</p>
+
+#
+
+<p align="center">
+
+[![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/webiny/webiny-js/blob/master/LICENSE)
+[![SemVer](http://img.shields.io/:semver-2.0.0-brightgreen.svg)](http://semver.org)
+![](https://img.shields.io/npm/types/scrub-js.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](/docs/CODE_OF_CONDUCT.md)
+[![Join our Slack community https://www.webiny.com/slack](https://img.shields.io/badge/Slack-Join%20our%20community!-orange)](https://www.webiny.com/slack)
+
+</p>
+
 # Write with Webiny
 
 The developer community writing program is a way for you to contribute to the open source movement by writing technical content, and getting paid for doing so. We’re looking for content that features technical subjects to help more developers to start building with Webiny and advance their skills.
