@@ -11,7 +11,7 @@ body:
       label: Abstract
       description:
         Please describe what you want to write about, how it would be relevant, and what format you would like to submit your article in (tutorial, guide, code example, blog...).
-        Here is an example abstract outline -   
+        Here is an example abstract outline.
 
 
         **Introduction**
@@ -21,7 +21,7 @@ body:
 
         **Goals**
 
-        - In this article, we will learn about the Webiny CMS and how we can use this in a React application by working on building a to-do app.
+        - In this article, we will learn about the Webiny CMS and how we can use it in a React application by working on building a To-Do app.
 
 
         **Outline**
@@ -30,13 +30,13 @@ body:
 
         - Why use Webiny CMS?
 
-        - Building a To-do application?
+        - Building a To-Do application?
 
           -- Installing dependencies
 
           -- Creating an input section
 
-          -- Add to-do list display
+          -- Add To-Do list display
 
         - Setting up Webiny CMS
 
@@ -44,7 +44,7 @@ body:
 
           -- Connecting the CMS to the application
 
-        - Creating, Updating, and Deleting to-dos
+        - Creating, Updating, and Deleting To-Dos
 
         - Conclusion
 
