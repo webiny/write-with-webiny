@@ -27,8 +27,7 @@ body:
     attributes:
       label: Outline
       description: Please let us know what format you would like to submit your article in (tutorial, guide, code example, blog...) and the outline for it.
-        Sample Outline -  
-
+      
         - What is a Headless CMS?
 
         - Why use Webiny CMS?
