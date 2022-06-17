@@ -1,5 +1,6 @@
 name: "Submit your article proposal"
 description: Create a new content - Tutorial, Article
+title: "[SUBMIT]"
 body:
   - type: markdown
     attributes:
@@ -12,24 +13,38 @@ body:
       description:
         Please describe what you want to write about, how it would be relevant, and what format you would like to submit your article in (tutorial, guide, code example, blog...)
 
-        Introduction
+        -> Introduction
+
         To-do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
 
-        Goals
+        -> Goals
+
         In this article, we will learn about the Webiny CMS and how we can use this in a React application by working on building a to-do app.
 
-        Outline
+        -> Outline
+
         - What is a Headless CMS?
+
         - Why use Webiny CMS?
+
         - Building a To-do application?
+
           - Installing dependencies
+
           - Creating an input section
+
           - Add to-do list display
+
         - Setting up Webiny CMS
+
           - Content Structure
+
           - Connecting the CMS to the application
+
         - Creating, Updating, and Deleting to-dos
+
         - Conclusion
+
         - Resources
 
   - type: textarea
