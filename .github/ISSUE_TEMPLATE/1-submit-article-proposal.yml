@@ -10,7 +10,9 @@ body:
   - type: textarea
     attributes:
       label: Introduction
-      description: Describe what you want to write about, here is a sample introduction - To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
+      description: Describe what you want to write about, here is a sample introduction
+
+        To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
 
   - type: textarea
     attributes:
@@ -22,6 +24,7 @@ body:
     attributes:
       label: Outline
       description: Please let us know what format you would like to submit your article in (tutorial, guide, code example, blog...) and the outline for it
+
         - What is a Headless CMS?
 
         - Why use Webiny CMS?
