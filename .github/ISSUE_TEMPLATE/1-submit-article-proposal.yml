@@ -7,7 +7,7 @@ body:
       value: |
         Thank you for showing your interest in Write with Webiny program. Submit your proposal with a topic and an abstract using this form.
 
-- type: textarea
+  - type: textarea
     attributes:
       label: Introduction
       description: Sample Introduction - To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
