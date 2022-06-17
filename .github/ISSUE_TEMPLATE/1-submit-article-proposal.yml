@@ -10,12 +10,13 @@ body:
     attributes:
       label: Abstract
       description:
-        Please describe what you want to write about, how it would be relevant, and what format you would like to submit your article in (tutorial, guide, code example, blog...)
+        Please describe what you want to write about, how it would be relevant, and what format you would like to submit your article in (tutorial, guide, code example, blog...).
         Here is an example abstract outline -   
 
-        Introduction
 
-        - To-do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
+        *Introduction*
+
+        - To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
 
 
         Goals
