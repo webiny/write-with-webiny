@@ -15,12 +15,12 @@ body:
         Here is an example abstract outline.
 
   - type: textarea
-      attributes:
+    attributes:
         label: Introduction
         description: Sample Introduction - To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
 
   - type: textarea
-      attributes:
+    attributes:
         label: Goals
         description: In this article, we will learn about the Webiny CMS and how we can use it in a React application by working on building a To-Do app.
 
