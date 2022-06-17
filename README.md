@@ -11,6 +11,8 @@
   <a href="https://twitter.com/WebinyCMS">Twitter</a>
 </p>
 
+#
+
 # Write with Webiny
 
 The developer community writing program is a way for you to contribute to the open source movement by writing technical content, and getting paid for doing so. We’re looking for content that features technical subjects to help more developers to start building with Webiny and advance their skills.
