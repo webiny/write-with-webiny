@@ -24,7 +24,12 @@ body:
       label: Goals
       description: In this article, we will learn about the Webiny CMS and how we can use it in a React application by working on building a To-Do app.
 
-- type: textarea
+  - type: textarea
+    attributes:
+      label: Outline
+      description: Sample Outline
+
+  - type: textarea
     attributes:
       label: Sample articles
       description: Please share any previously written articles that showcase your writing style.
