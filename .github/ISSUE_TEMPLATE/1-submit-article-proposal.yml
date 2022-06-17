@@ -26,6 +26,29 @@ body:
     attributes:
       label: Outline
       description: Sample Outline
+        - What is a Headless CMS?
+
+        - Why use Webiny CMS?
+
+        - Building a To-Do application?
+
+          -- Installing dependencies
+
+          -- Creating an input section
+
+          -- Add To-Do list display
+
+        - Setting up Webiny CMS
+
+          -- Content Structure
+
+          -- Connecting the CMS to the application
+
+        - Creating, Updating, and Deleting To-Dos
+
+        - Conclusion
+
+        - Resources
 
   - type: textarea
     attributes:
