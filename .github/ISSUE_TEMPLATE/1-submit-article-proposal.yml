@@ -7,6 +7,13 @@ body:
       value: |
         Thank you for showing your interest in Write with Webiny program. Submit your proposal with a topic and an abstract using this form.
 
+  - type: markdown
+    attributes:
+      label: Abstract
+      value: |
+        Please describe what you want to write about, how it would be relevant, and what format you would like to submit your article in (tutorial, guide, code example, blog...).
+        Here is an example abstract outline.
+
 - type: textarea
     attributes:
       label: Introduction
@@ -16,35 +23,6 @@ body:
     attributes:
       label: Goals
       description: In this article, we will learn about the Webiny CMS and how we can use it in a React application by working on building a To-Do app.
-
-- type: textarea
-    attributes:
-      label: Outline
-      description: Sample Outline
-      
-        - What is a Headless CMS?
-
-        - Why use Webiny CMS?
-
-        - Building a To-Do application?
-
-          -- Installing dependencies
-
-          -- Creating an input section
-
-          -- Add To-Do list display
-
-        - Setting up Webiny CMS
-
-          -- Content Structure
-
-          -- Connecting the CMS to the application
-
-        - Creating, Updating, and Deleting To-Dos
-
-        - Conclusion
-
-        - Resources
 
   - type: textarea
     attributes:
