@@ -23,7 +23,7 @@ body:
   - type: textarea
     attributes:
       label: Outline
-      description: Please let us know what format you would like to submit your article in (tutorial, guide, code example, blog...) and the outline for it
+      description: Please let us know what format you would like to submit your article in (tutorial, guide, code example, blog...) and below is the sample outline for it
 
         - What is a Headless CMS?
 
