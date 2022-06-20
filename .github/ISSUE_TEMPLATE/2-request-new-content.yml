@@ -4,5 +4,5 @@ title: "[Request New Content]"
 body:
   - type: textarea
     attributes:
-      label: Request New Content
+      label: Topic
       description: Please give a brief description of the topic you're interested in. 
