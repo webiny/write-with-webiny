@@ -94,7 +94,7 @@ At this stage, we will also agree on the fee, expected timelines and other detai
 
 ### Step 5. Review submission
 
-You should review the submission guidelines, FAQs and examples of previously published articles before you start working on drafting your article. If you still have any outstanding questions, please reach out to our team through the Slack channel to get further clarity. 
+You should review the submission guidelines, [FAQs](https://github.com/webiny/write-with-webiny/blob/main/FAQ.md) and examples of previously published articles before you start working on drafting your article. If you still have any outstanding questions, please reach out to our team through the Slack channel to get further clarity. 
 
 
 ### Step 6. Submit your article
