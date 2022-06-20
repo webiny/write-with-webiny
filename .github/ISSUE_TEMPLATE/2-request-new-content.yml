@@ -1,0 +1,11 @@
+name: "Request New Content"
+description: Request for new content to be created by the Webiny community
+title: "[Request New Content]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please give a brief description of the topic you're interested in.  
+  - type: textarea
+    attributes:
+      label: Topic
