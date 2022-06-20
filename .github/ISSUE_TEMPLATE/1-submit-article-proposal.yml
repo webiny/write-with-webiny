@@ -18,13 +18,15 @@ body:
     attributes:
       label: Goals
       description: Please explain the goal of the article and how it would be relevant for the readers.
-
+      value: |
         Sample Goal - In this article, we will learn about the Webiny CMS and how we can use it in a React application by working on building a To-Do app.
 
   - type: textarea
     attributes:
       label: Outline
-      description: Please let us know what format you would like to submit your article in (tutorial, guide, code example, blog...) and below is the sample outline.
+      description: Please let us know what format you would like to submit your article in (tutorial, guide, code example, blog...).
+      value: |
+        Here is the sample outline.
 
         - What is a Headless CMS?
 
