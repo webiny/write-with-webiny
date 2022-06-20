@@ -78,10 +78,10 @@ We’ll set you up as a new writer, provide all the necessary information that y
 
 There are two main ways you can submit your interest for writing an article: 
 
-1. [**Pick an existing topic that has been requested by our community.**](https://github.com/webiny/write-with-webiny/issues/new?assignees=&labels=&template=1-submit-article-proposal.yml&title=%5BSUBMIT%5D)
+1. [**Pick an existing topic that has been requested by our community.**](https://github.com/webiny/write-with-webiny/issues?q=is%3Aissue+is%3Aopen+label%3A%22Looking+for+a+writer%22)
 You can simply browse through the topics that are labeled with “Looking for a writer” label. Find a topic you would like to cover, add a comment to it including a brief abstract a detailed outline. 
 
-2. [**Suggest your own topic that you believe might be valuable to our dev community.**](https://github.com/webiny/write-with-webiny/issues/new?assignees=&labels=&template=2-request-new-content.yml&title=%5BRequest+New+Content%5D) 
+2. [**Suggest your own topic that you believe might be valuable to our dev community.**](https://github.com/webiny/write-with-webiny/issues/new?assignees=&labels=&template=1-submit-article-proposal.yml&title=%5BSUBMIT%5D) 
 Create a new issue using the provided template and submit an outline of the topic you would like to request to be covered. 
 
 
