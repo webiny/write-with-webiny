@@ -11,6 +11,7 @@ body:
           [Sample Outline]
 
           I would like to see a tutorial on using Next.js with Webiny Headless CMS. Please cover the following topics in the tutorial:
+
           -- Setting up a Next.js project
           -- Fetching the Content Entries using GraphQL APIs with Apollo Client
           -- How to use Next.js preview mode
