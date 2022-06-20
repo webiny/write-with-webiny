@@ -1,6 +1,6 @@
 name: "Request New Content"
 description: Request for new content to be created by the Webiny community
-title: "[Request New Content]"
+title: "[Request A New Content]"
 body:
   - type: textarea
     attributes:
