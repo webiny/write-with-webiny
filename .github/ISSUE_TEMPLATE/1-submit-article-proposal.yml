@@ -12,21 +12,21 @@ body:
       label: Introduction
       description: Please describe what you want to write about, below is a sample introduction.
       value: |
-        To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.
+        [To-Do applications are a way of organizing things to do or achieve in the form of a list. This list allows us to write down tasks, reprioritize tasks more efficiently, and manage them for increased productivity.]
 
   - type: textarea
     attributes:
       label: Goals
       description: Please explain the goal of the article and how it would be relevant for the readers.
       value: |
-        Sample Goal - In this article, we will learn about the Webiny CMS and how we can use it in a React application by working on building a To-Do app.
+        [Sample Goal - In this article, we will learn about the Webiny CMS and how we can use it in a React application by working on building a To-Do app.]
 
   - type: textarea
     attributes:
       label: Outline
       description: Please let us know what format you would like to submit your article in (tutorial, guide, code example, blog...).
       value: |
-        Here is the sample outline.
+        [Here is the sample outline.
           - What is a Headless CMS?
           - Why use Webiny CMS?
           - Building a To-Do application?
@@ -38,7 +38,7 @@ body:
             -- Connecting the CMS to the application
           - Creating, Updating, and Deleting To-Dos
           - Conclusion
-          - Resources
+          - Resources]
 
   - type: textarea
     attributes:
