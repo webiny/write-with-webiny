@@ -5,7 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please give a brief description of the topic you're interested in.  
+        Please describe the topic on which you'd like the Webiny community to create content. 
   - type: textarea
-    attributes:
-      label: Topic
+
+
+
+      
