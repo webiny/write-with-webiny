@@ -1,0 +1,27 @@
+.card {
+    padding:10px;
+    border: 1px solid #f4f4f4;
+    width: 80%;
+    margin:0px auto 20px auto ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h4{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardActions button{
+    display: inline-block;
+    border: 1px solid #f4f4f4;
+    padding: 5px;
+    background-color: darkgray;
+    border-radius: 5px;
+    color: #fff;
+}

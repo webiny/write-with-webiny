@@ -1,0 +1,13 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.navHeading{
+    font-weight: bold;
+    text-transform: uppercase;
+}

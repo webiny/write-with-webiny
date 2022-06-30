@@ -1,0 +1,60 @@
+
+.container {
+    width: 80%;
+    margin: 0px auto 10px auto;
+}
+
+.form {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+}
+
+.formGroup label {
+    font-weight: bold;
+}
+
+.formGroup input[type="text"]{
+    margin-top: 5px;
+    border: 1px solid #f4f4f4;
+    padding:10px;
+    margin-right: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formGroup textarea {
+    margin-top: 5px;
+    border: 1px solid #f4f4f4;
+    padding:10px;
+    margin-right: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.formGroup button {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #f4f4f4;
+    width: 100%;
+    text-align: center;
+}
+
+.error {
+    margin:5px 0px 10px 0px;
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+.message {
+    margin:5px 0px 10px 0px;
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    width: 100%;
+    color: green;
+    text-align: center;
+}
