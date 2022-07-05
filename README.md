@@ -99,7 +99,7 @@ You should review the submission guidelines, [FAQs](https://github.com/webiny/wr
 
 ### Step 6. Submit your article
 
-Once you have a first draft of your article written, you can submit it to our editorial team. We will open a public Notion document for you to paste in your article. If any revisions are needed, our team will provide you the feedback and work with you on getting the draft polished so it's ready for publishing. 
+As soon as the brief is approved, We will open a public Notion document for you to write your article. If any revisions are needed, our team will provide you the feedback and work with you on getting the draft polished so it's ready for publishing. 
 
 
 ### Step 7. Get paid for your work
