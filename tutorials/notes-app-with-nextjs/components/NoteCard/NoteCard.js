@@ -5,7 +5,7 @@ export default function NoteCard({cardData,handleDeleteNote}) {
   return (
     <div className={styles.card}>
 
-      <div className={styles.cardDetails}>
+      <div>
         <h4>{cardData.title}</h4>
         <p>{cardData.description}</p>
       </div>
