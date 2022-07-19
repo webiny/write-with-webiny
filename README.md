@@ -58,6 +58,11 @@ If there is a topic that you might find relevant for Webiny community, but doesn
 - Tutorials will need to feature integrations with Webiny, so you should be familiar with our products before you enroll on the program.
 
 
+## Do you have a styleguide?
+
+Yes! It's in this repo: [Styleguide](./styleguide.md). Please make sure you read it carefully to reduce your revision time.
+
+
 ## How it works?
 
 ### Step 1. Join our Slack community
@@ -83,6 +88,10 @@ You can simply browse through the topics that are labeled with “Looking for a 
 
 2. [**Suggest your own topic that you believe might be valuable to our dev community.**](https://github.com/webiny/write-with-webiny/issues/new?assignees=&labels=&template=1-submit-article-proposal.yml&title=%5BSUBMIT%5D) 
 Create a new issue using the provided template and submit an outline of the topic you would like to request to be covered. 
+
+### Step 3. Read the Styleguide
+
+Please make sure you [read the styleguide carefully](./styleguide.md) to reduce your revision time.
 
 
 ### Step 4. Topic request review and approval
