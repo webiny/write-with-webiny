@@ -88,9 +88,10 @@ Images should be **landscape** and a **minimum of 800px wide and 200px high**. I
 
 Images should *always* include appropriate alternative text for screen readers and other assistive devices.
 
-**Example:**
+**Good example:**
 
-![Prominent red arrows indicate menu items](./images/arrows-top-guide-user-through-ui.png)
+![Image is visible but on a transparent background](./images/image-surrounded-by-whitespace.png)
+
 
 The checkered area indicates where the canvas has been resized to 800px wide by 200px high. When saved as a .png, the space will be rendered as transparent.
 
@@ -102,7 +103,8 @@ Quite often, if the user is being asked to click around an interface, more than 
 
 **Good example:** The screenshot has been annotated leaving the user in no doubt that they need to click on Settings > API Keys in the fly-out menu.
 
-![Image is visible but on a transparent background](./images/image-surrounded-by-whitespace.png)
+![Prominent red arrows indicate menu items](./images/arrows-top-guide-user-through-ui.png)
+
 
 ## Structured Clearly
 
