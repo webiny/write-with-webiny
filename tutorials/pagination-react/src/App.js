@@ -1,66 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Book from './Book';
-import { useQuery, gql } from '@apollo/client';
-
-const LIST_BOOKS = gql`
-  query GetBooks ($limit: Int, $after: String){
-    listBooks (limit: $limit, after: $after){
-      data {
-        id
-        authors {
-          authors
-        }
-        description
-        image
-        previewLink
-        publishDate
-        publisher
-        title
-        subtitle
-      }
-      meta {
-        cursor
-        hasMoreItems
-      }
-      error {
-        message
-        data
-      }
-    }
-  }
-`
+import { Allbooks } from './data'
 
 function App() { 
-  const [cursors, setCursors] = useState([null])
   const [page, setPage] = useState(0)
-
-  const {data, loading, error} = useQuery(LIST_BOOKS, {
-    variables: {
-      limit: 10,
-      after: cursors[page]
-    }
-  })
-
-  useEffect(() => {
-    const pointer = data?.listBooks.meta?.cursor
-    if(!loading && pointer !== cursors[page]){
-      setCursors([...cursors, pointer])
-    }
-  }, [data])
-
-  if(error) {
-    console.log(error)
-    return (
-      <div>There has been an error</div>
-    )
-  }
 
   return (
     <div className="app">
-      {!loading && data?.listBooks.data
+      {Allbooks
         ? <div className='books'>
-            {data?.listBooks.data?.map((book) => (
+            {Allbooks.map((book) => (
                 <Book
                   key={book.id}
                   title={book.title}
@@ -73,18 +23,9 @@ function App() {
               ))}
           </div>   
         : <>
-          {loading
-            ? <div className='center'>Loading...</div>
-            : (
-                <span className='center'>
-                  {data?.listBooks.error.message} {data?.listBooks.error.data.reason} 
-                </span>
-              )
-          }
           </>
         }     
         
-      {!loading &&
         <div className='buttons'>
           <button 
             disabled={page === 0 && true}
@@ -92,11 +33,10 @@ function App() {
             onClick={() => {setPage(page - 1)}}>Prev</button>
 
           <button
-            disabled={!data?.listBooks.meta?.hasMoreItems && true}
-            style={{backgroundColor: `${data?.listBooks.meta?.hasMoreItems ? '#6796ec' : 'gray'}`}}
+            disabled={true}
+            style={{backgroundColor: `${true ? '#6796ec' : 'gray'}`}}
             onClick={() => {setPage(page + 1)}}>Next</button>
         </div>
-      }
     </div>
   );
 }
