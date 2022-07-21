@@ -76,6 +76,8 @@ There’s little to hook the reader in here. We haven’t given them a reason to
 
 *Fetching data and rendering it in a UI built with React is fantastic … until your blog starts to run into tens, or even hundreds of articles. Once it does, you’ll notice your API calls will slow down to a crawl, and rendering will start to become unresponsive. Let’s look at how you can eliminate these issues using Pagination. What is pagination? What different types of pagination methods exist in GraphQL? How do you fetch data using pagination methods with Apollo Client in a React application? These questions will be answered as we dive into building a paginated blog with React and Webiny Headless CMS.*
 
+When you are helping the reader to create their models and content, please be deliberate about what name the model should have and what type it should be. Ideally, have images for each step (or a short video). The name of the models and fields should be the same throughout your tutorial and the code you submit. This is so that the amount of errors the reader will encounter when they try to follow along with your code will be reduced.
+
 ### 4. Be friendly but minimal
 
 Be conversational with your prose. We want people to feel welcome. But don’t overdo it; they’re here to learn and we don’t want to detract from that objective.
@@ -105,6 +107,10 @@ Quite often, if the user is being asked to click around an interface, more than 
 
 ![Prominent red arrows indicate menu items](./images/arrows-top-guide-user-through-ui.png)
 
+
+### Animations
+
+If you wish you can support a number of short videos instead of images as appropriate. Please supply these as `.mp4` format. `.gif`s tend to be compressed and can look blurry when we transfer them to our website.
 
 ## Structured Clearly
 
