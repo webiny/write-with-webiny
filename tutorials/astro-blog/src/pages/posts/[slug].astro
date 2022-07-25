@@ -1,0 +1,63 @@
+---
+import { RichTextRenderer } from '@webiny/react-rich-text-renderer'
+import Layout from "../../layouts/Layout.astro";
+
+export async function getStaticPaths(slug) {
+    const data = await fetch(import.meta.env.ASTRO_PUBLIC_WEBINY_API_URL, {
+        method:'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${import.meta.env.WEBINY_API_TOKEN}`
+        },
+        body: JSON.stringify({
+        query: `
+            query getPerPost($PostsListWhereInput: PostsListWhereInput) {
+                listPosts(where: $PostsListWhereInput) {
+                    data {
+                        id
+                        title
+                        slug
+                        featuredImage
+                        author{
+                            name
+                            picture
+                        }
+                        body
+                    }
+                }
+            }
+            `,
+            variables: {
+                PostsGetWhereInput: {
+                    slug: slug
+                }
+            }
+        })
+    })
+    const json = await data.json();
+    const results = json.data;
+    const posts = results.listPosts.data;
+
+    return posts.map((post) => {
+        return {
+            params: { slug: post.slug },
+            props: { post },
+        }
+    });
+}
+const { slug } = Astro.params;
+const { post } = Astro.props;
+---
+<Layout>
+    <div class="container mx-auto px-80 mb-8 space-y-6 py-3">
+        <h1 class="text-4xl">{post.title}</h1>
+        <div class='flex items-center gap-4 mb-10'>
+            <img class='w-7 h-7 rounded-full' src={post.author.picture} />
+            <p class="text-xl">{post.author.name}</p>
+          </div>
+        <figure class="relative overflow-hidden shadow-md mb-10">
+            <img src={post.featuredImage} alt={post.title} class='object-top h-full w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg' />
+        </figure>
+        <RichTextRenderer data={post.body} />
+    </div>
+</Layout>
