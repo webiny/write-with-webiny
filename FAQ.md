@@ -5,7 +5,7 @@
 
 ### When writing an article, do I have to follow any writing guidelines? 
 
-Yes, please use these writing guidelines as reference. Following these guidelines will significantly reduce the article review process. You'll spend less time on revisions and get paid quicker. 
+Yes, please use this [styleguide document](https://github.com/webiny/write-with-webiny/blob/3a51db7577520231a1e295454e7e928ae7608d0e/styleguide.md) as reference. Following these guidelines will significantly reduce the article review process. You'll spend less time on revisions and get paid quicker. 
 
 <br>
 
