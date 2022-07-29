@@ -113,5 +113,5 @@ As soon as the brief is approved, we will open a public Notion document for you 
 
 ### Step 7. Get paid for your work
 
-Once you get the confirmation from the editorial team that your article is finalised and ready to be published, you can submit your invoice and get paid for your work. Please follow the instructions provided to you at the approval stage (step 4).
+Once you get the confirmation from the editorial team that your article is finalised and ready to be published, you can submit your invoice and get paid for your work. Here is an [invoice template](https://docs.google.com/document/d/1UzELr0J_1HPANCIsZN2OZ_iAked9bmhv/edit?usp=sharing&ouid=116721299340563662134&rtpof=true&sd=true). Please use this template and send it in PDF format. Please follow the instructions provided to you at the approval stage (step 4).
 
