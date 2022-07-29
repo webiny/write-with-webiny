@@ -113,10 +113,10 @@ As soon as the brief is approved, we will open a public Notion document for you 
 
 ### Step 7. Get paid for your work
 
-Once you get the confirmation from the editorial team that your article is finalised and ready to be published, you can submit your invoice and get paid for your work. Here is an sample [invoice template](https://docs.google.com/document/d/1UzELr0J_1HPANCIsZN2OZ_iAked9bmhv/edit?usp=sharing&ouid=116721299340563662134&rtpof=true&sd=true). Please feel free to use this template and send it in PDF format. If you are using your own invoice template, please make sure you include the following details in the invoice:
+Once you get the confirmation from the editorial team that your article is finalised and ready to be published, you can submit your invoice and get paid for your work. Here is a sample [invoice template](https://docs.google.com/document/d/1UzELr0J_1HPANCIsZN2OZ_iAked9bmhv/edit?usp=sharing&ouid=116721299340563662134&rtpof=true&sd=true). Please feel free to use this template and send it in PDF format. If you are using your own invoice template, please make sure you include the following details in the invoice:
 - Date
 - Invoice number
 - Your full details (name and address)
-- Webiny company full details (name - `Webiny Inc.` address - `2140 South Dupont Highway, City of Camden, County of Kent 19934 Delaware`)
+- Webiny company full details (`Webiny Inc. 2140 South Dupont Highway, City of Camden, County of Kent 19934 Delaware`)
 - Amount and currency
 - Full bank details to receive the payment
