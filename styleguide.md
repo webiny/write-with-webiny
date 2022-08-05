@@ -160,6 +160,18 @@ Please invest time finding style guides for technologies or check their websites
 
 Please drop images directly into Notion rather than linking to them from another service.
 
+### 4. Code
+
+Code submissions, both within your article and your supplied code, should be formatted with Prettier or a similar tool.
+
+It should be correctly indented with _tabs_ because spaces cause accessibility issue to some screen readers.
+
+Code blocks within your text should have the correct formatting language associated with the code block to enable syntax hilighting.
+
+This can be done in Notion by hovering over the code block and selecting the language:
+
+![Code language selector in Notion](./images/notion-language-selection.png)
+
 ## Ready for us to Review?
 
 Completed your article? Great! Follow this steps to get a faster turnaround on your article.
