@@ -144,7 +144,7 @@ Your conclusion should repeat in brief what the reader will have learned during 
 
 ## Formatted Properly
 
-Please ensure you have structured your document in a way that we can easily recreate it in a Markdown file. 
+Please ensure you have structured your document in a way that we can easily recreate it in a Markdown file.
 
 ### 1. Titles
 
@@ -166,7 +166,11 @@ Code submissions, both within your article and your supplied code, should be for
 
 It should be correctly indented with _tabs_ because spaces cause accessibility issue to some screen readers.
 
-Code blocks within your text should have the correct formatting language associated with the code block to enable syntax hilighting.
+Code blocks within your text should have the correct formatting language associated with the code block to enable syntax hilighting. They should be written with 3 backticks unless they are part of a sentence. They should also have an associated language tag. For example:
+
+```bash
+yarn add -D @tailwindcss
+``
 
 This can be done in Notion by hovering over the code block and selecting the language:
 
