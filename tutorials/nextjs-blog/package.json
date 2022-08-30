@@ -1,0 +1,26 @@
+{
+  "name": "webiny-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@webiny/react-rich-text-renderer": "^5.30.0-beta.1",
+    "dayjs": "^1.11.5",
+    "next": "12.2.5",
+    "node-sass": "^7.0.1",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.54.4",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
