@@ -77,29 +77,32 @@ const addJob = () => {
   });
 };
 </script>
+
 <template>
-  <h1>CREATE JOB</h1>
-  <!-- Form for creating a job. This will push entered values into the CMS -->
-  <form class="jobForm" @submit.prevent="checkFields(newJob)">
-    <label for="title">Title</label>
-    <input type="text" name="title" v-model="newJob.title" />
-    <label for="desc">Job Description</label>
-    <textarea name="desc" class="jobDesc" rows="5" v-model="newJob.desc">
-    </textarea>
-    <label for="URL">Job Reference URL</label>
-    <input
-      type="url"
-      name="URL"
-      placeholder="https://"
-      pattern="https://.*"
-      v-model="newJob.jobUrl"
-    />
-    <label for="contact">Job Contact Email</label>
-    <input type="email" name="contact" v-model="newJob.contact" />
-    <label for="location">Job Location</label>
-    <input type="text" name="location" v-model="newJob.location" />
-    <label for="expiry">Job Start Date</label>
-    <input type="date" v-model="newJob.expires" name="expiry" />
-    <button type="submit" value="Submit">ADD JOB</button>
-  </form>
+  <div>
+    <h1>CREATE JOB</h1>
+    <!-- Form for creating a job. This will push entered values into the CMS -->
+    <form class="jobForm" @submit.prevent="checkFields(newJob)">
+      <label for="title">Title</label>
+      <input type="text" name="title" v-model="newJob.title" />
+      <label for="desc">Job Description</label>
+      <textarea name="desc" class="jobDesc" rows="5" v-model="newJob.desc">
+      </textarea>
+      <label for="URL">Job Reference URL</label>
+      <input
+        type="url"
+        name="URL"
+        placeholder="https://"
+        pattern="https://.*"
+        v-model="newJob.jobUrl"
+      />
+      <label for="contact">Job Contact Email</label>
+      <input type="email" name="contact" v-model="newJob.contact" />
+      <label for="location">Job Location</label>
+      <input type="text" name="location" v-model="newJob.location" />
+      <label for="expiry">Job Start Date</label>
+      <input type="date" v-model="newJob.expires" name="expiry" />
+      <button type="submit" value="Submit">ADD JOB</button>
+    </form>
+  </div>
 </template>
