@@ -1,0 +1,212 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ccc;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 0;
+  color: #000;
+}
+
+h1 {
+  font-size: 2.75em;
+  line-height: 1.1;
+  padding: 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/**/
+h1,
+.job {
+  text-align: left;
+}
+.currentDate {
+  font-size: 2em;
+  text-align: right;
+  color: #444;
+  border-bottom: 10px solid #ffe8a3;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  color: orange;
+}
+
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 span {
+  color: black;
+}
+
+h4 {
+  font-size: 1.5em;
+  color: orange;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 66% 33%;
+  gap: 10px;
+  padding: 0px;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.jobs {
+  padding: 5px;
+}
+
+.side {
+  min-height: 100vh;
+  padding-left: 10px;
+  background-color: #ffe8a3;
+}
+
+.job,
+.jobForm {
+  display: inline-block;
+  margin: 5px;
+}
+
+textarea {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  display: block;
+  color: #000;
+  width: 100%;
+}
+input {
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  color: #000;
+  display: block;
+  width: 300px;
+  padding: 10px;
+  height: 1em;
+}
+
+form button {
+  width: 100%;
+  background-color: orange;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.icon:hover {
+  background-color: #ffe8a3;
+  color: #000;
+  border: none;
+}
+
+.job {
+  width: 40%;
+  border-radius: 10px;
+  color: #000;
+  background-color: #fff;
+
+  padding: 5px;
+}
+
+/*****/
+
+@media only screen and (max-width: 640px) {
+  .container {
+    display: inline-block;
+  }
+
+  .job {
+    width: 90%;
+  }
+}

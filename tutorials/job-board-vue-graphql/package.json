@@ -1,0 +1,22 @@
+{
+  "name": "job-webiny-cms",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@urql/vue": "^1.0.2",
+    "graphql": "^16.6.0",
+    "moment": "^2.29.4",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "prettier": "2.7.1",
+    "vite": "^3.1.0"
+  }
+}
