@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* App */
+.jobs {
+  margin-top: 70px;
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, 300px); 
+  place-content: center;
+  grid-gap: 15px;
+}
+
+/* JobCard */
+.jobCard {
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(204,212,219);
+  border-radius: 20px;
+  width: 300px;
+}
+
+.jobCard__details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jobCard__details h2 {
+  font-weight: 400;
+}
+
+.jobCard__details img {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.jobCard__details span {
+  color: rgb(94, 96, 98);
+  font-size: 14px;
+}
+
+.jobCard__details .jobCard__applicants {
+  color: rgb(217,185,41);
+}
+
+.jobCard__details div:nth-child(3){
+  display: flex;
+  align-items: center;
+}
+
+.dot::after{
+  content: '.';
+  padding: 5px;
+  position: relative;
+  top: -2px;
+}
+
+
+.jobCard button {
+  width: 100%;
+  background-color: rgb(248,249,250);
+  height: 40px;
+  border: none;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.jobCard button:hover {
+  background-color: rgb(102,137,162);
+  color: white;
+}
+
+/* Hero */
+.hero {
+  background-color: rgb(225,231,236);
+}
+
+header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 18px;
+}
+
+header button {
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background-color: rgb(102,137,162);
+  color: white;
+}
+
+header button:hover {
+  background-color: rgb(89, 119, 140);
+}
+
+header button:active {
+  transform: scale(1);
+}
+
+.hero .wrapper {
+  text-align: center;
+  height: 150px;
+}
+
+.hero .hero__searchNfilter {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgb(204,212,219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-sizing: content-box;
+  width: fit-content;
+  gap: 10px;
+
+}
+
+/* Seach */
+.search {
+  border-radius: 50px;
+  height: inherit;
+  background-color: rgb(248,249,250);
+  display: flex;
+}
+
+.search input {
+  border: none;
+  height: inherit;
+  background-color: inherit;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  padding: 0 10px;
+}
+
+.search input:focus {
+  outline: none;
+  background-color: unset;
+}
+
+.search button {
+  border: none;
+  background-color: rgb(102,137,162);
+  border-radius: inherit;
+  height: inherit;
+  padding: 5px 15px;
+  color: white;
+}
+
+.search button:hover {
+  background-color: rgb(89, 119, 140);
+}
+
+.search button:active {
+  color: white;
+}
+
+
+/* Select */
+.select {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.select button {
+  border: 1px solid gainsboro;
+  background-color: rgb(248,249,250);
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  gap: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.select button:hover {
+  background-color: transparent;
+}
+
+.select button:active {
+  background-color: rgb(248,249,250);
+}
+
+
+.select button img {
+  width: 15px;
+}
+
+.select__options {
+  box-shadow: 0 0 2px gray;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  top: 45px;
+}
+
+.select__options div {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.select__options div:last-child {
+  margin: 0;
+}
+
+.select__options div label {
+  margin-left: 5px;
+}
+
+.select__optionButtons button {
+  font-size: 12px;
+  height: 25px;
+  border: none;
+  box-shadow: none;
+}
+
+.select__optionButtons button:first-child {
+  background-color: transparent;
+  margin-right: 10px;
+
+}
+
+.select__optionButtons button:first-child:hover{
+  background-color: rgb(225,231,236);
+}
+
+.select__optionButtons button:last-child {
+  padding: 0px 20px;
+  background-color: rgb(102,137,162);
+  color: white;
+}
+
+.select__optionButtons button:last-child:hover { 
+  color: gainsboro;
+}
+
+
+/* Modal */
+.modalContainer {
+  position: fixed;
+  width: 100vw; 
+  height: 100%;
+  display: flex;
+  top: 0;
+  overflow-y: auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal{
+  width: 90%;
+  max-width: 500px;
+  height: fit-content;
+  border: 5px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.modal__head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.modal__head h2 {
+  font-weight: 500;
+}
+
+.modal__close {
+  position: absolute;
+  top: -4px;
+  right: 0;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(94, 96, 98);
+}
+
+.modal__close:hover{
+  color: hsl(0, 70%, 70%);
+}
+
+.backdrop{
+  align-items: unset;
+}
+
+/* Job */
+.job {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.job h2 {
+  font-weight: 400;
+}
+
+.job img {
+  width: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.job span, p {
+  color: rgb(53, 57, 62);
+}
+
+.job .job__applicants {
+  color: rgb(217,185,41);
+}
+
+.job > div:nth-child(2){
+  display: flex;
+  align-items: center;
+}
+
+.job div:nth-child(3) {
+  margin-top: 10px;
+}
+
+.job div:nth-child(3) h2{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.job__apply {
+  background-color: rgb(248,249,250);
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.job__apply h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(53, 57, 62);
+  margin-bottom: 20px;
+}
+
+.job__apply form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.job__apply form button {
+  width: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  background-color: rgb(102,137,162);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.job__apply form button:hover {
+  background-color: rgb(89, 119, 140);
+}
+
+
+/* Input */
+.input label {
+  display: block;
+  color: rgb(94, 96, 98);
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input input {
+  height: 30px;
+  border: 1px solid rgb(204,212,219);
+  border-radius: 4px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.removeArrows::-webkit-outer-spin-button,
+.removeArrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.removeArrows input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* PostJob */
+.postJob {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.postJob__selects {
+  display: flex;
+  gap: 10px;
+}
+
+.postJob input {
+  height: 40px;
+  font-size: 14px;
+}
+
+.postJob > button {
+  width: fit-content;
+  padding: 10px 20px;
+  margin-left: auto;
+  background-color: rgb(102,137,162);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.postJob > button:hover {
+  background-color: rgb(89, 119, 140);
+}
+
+.postJob > button {
+  background-color: rgb(102,137,162);
+}
+
+.postJob__description label {
+  display: block;
+  font-size: 14px;
+  color: rgb(94, 96, 98);
+  margin-bottom: 5px;
+}  
+
+.postJob__description textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+  border: 1px solid rgb(204,212,219);
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.postJob__description textarea:focus {
+  outline: none;
+}
+
+.postJob__option {
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.postJob .select__options {
+  padding: 0;
+}
+
+.postJob__option:hover {
+  background-color: rgb(248,249,250);
+}
