@@ -2,6 +2,9 @@
 	import { onMount } from 'svelte';
 	import Card from '../component/Card.svelte';
 	import { GraphQLClient, gql } from 'graphql-request';
+	/** @type {import('./$types').PageData} */
+	export let data: any;
+
 
 	let blog: any[];
 	let loading = false;
@@ -11,12 +14,12 @@
 	export async function main() {
 		loading = false;
 		const endpoint = import.meta.env.VITE_PUBLIC_CMS_ENPOINT;
-
+		const secret_token = data.token
 
 		const graphQLClient = new GraphQLClient(endpoint, {
 			headers: {
 				'Content-Type': 'application/json',
-				Authorization: `Bearer ${import.meta.env.VITE_PUBLIC_TOKEN_SECRET}`
+				Authorization: `Bearer ${secret_token}`
 			}
 		});
 
