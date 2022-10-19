@@ -2,22 +2,26 @@
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { GraphQLClient, gql } from 'graphql-request';
-
+	/** @type {import('./$types').PageData} */
+	export let data: any;
 	let slugID = $page.params.slug;
 	let blog: any;
 	let preview: any;
 	let loading = false;
+
+	
 
 	onMount(() => main());
 	export async function main() {
 		loading = false;
 
 		const endpoint = import.meta.env.VITE_PREVIEW_API_CMS_ENPOINT;
+		const secret_token = data.token
 
 		const graphQLClient = new GraphQLClient(endpoint, {
 			headers: {
 				'Content-Type': 'application/json',
-				Authorization: `Bearer ${import.meta.env.VITE_PUBLIC_TOKEN_SECRET}`
+				Authorization: `Bearer ${secret_token}`
 			}
 		});
 
