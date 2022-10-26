@@ -7,11 +7,10 @@ import { useQuery, gql } from "@apollo/client";
 
 function App() {
   const [input, setInput] = useState("");
-  let alanKey = "924f4ab512371150076a72f0ba54f7832e956eca572e1d8b807a3e2338fdd0dc/stage"
 
   useEffect(() => {
     alanBtn({
-      key: alanKey ,
+      key: process.env.REACT_APP_ALAN_KEY, 
       onCommand: ({ command, author }) => {
         if (command === "open") {
           setInput(author);
