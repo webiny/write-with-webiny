@@ -13,10 +13,7 @@ const ActiveUsers = props => {
 							<MDBCardBody>
 								<MDBTypography listUnStyled className="mb-0">
 									<li className="p-2">
-										<a
-											href="#!"
-											className="d-flex justify-content-between"
-										>
+										<div className="d-flex justify-content-between">
 											<div className="d-flex flex-row">
 												<img
 													src="https://i.postimg.cc/85nKtgFz/user.png"
@@ -40,7 +37,7 @@ const ActiveUsers = props => {
 													Active
 												</p>
 											</div>
-										</a>
+										</div>
 									</li>
 								</MDBTypography>
 							</MDBCardBody>
