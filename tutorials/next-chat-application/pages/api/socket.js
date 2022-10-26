@@ -12,15 +12,14 @@ const getRequest = async () => {
 			//Adding the graphql query
 			query: `
 				{
-  		 listChats(sort: createdOn_ASC, limit: 20) {
-    		data {
-      		chats
-      		time
-      		user
-    		}
-  }
-			}
-
+  			  listChats(sort: createdOn_ASC, limit: 20) {
+    				data {
+      				chats
+      				time
+      				user
+    				}
+  				}
+				}
 		`,
 		}),
 	})
