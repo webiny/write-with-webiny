@@ -48,4 +48,4 @@ const ActiveUsers = props => {
 	);
 };
 
-export default ActiveUsers;
+export default ActiveUsers
