@@ -3,7 +3,7 @@
 Please refer to [this tutorial](https://www.webiny.com/blog/build-trello-clone-nextjs-webiny-headless-cms-1-of-2) to build a Trello Clone with Next.js and Webiny Headless CMS
 
 ## How to run
-After cloning the repository, to install node modules, execute:
+After cloning the repository, install node modules by executing:
 ```bash
 npm install
 ```
