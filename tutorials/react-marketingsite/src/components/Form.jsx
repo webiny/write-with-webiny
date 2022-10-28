@@ -21,9 +21,6 @@ const Form = () => {
     }
   `;
 
-  // const { error, data } = useQuery(GET_ID);
-  // console.log(useQuery(GET_ID));
-  // console.log(data);
   const SEND_FORM = gql`
     mutation CreateFormSubmission($revision: ID!, $data: JSON!) {
       formBuilder {
