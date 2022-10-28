@@ -14,6 +14,10 @@ yarn install
 
 To run the project in local environment, execute:
 ```bash
+npx next dev
+```
+or
+```bash
 yarn dev
 ```
 
