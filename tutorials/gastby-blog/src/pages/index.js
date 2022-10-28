@@ -5,6 +5,11 @@ import { Seo } from "../components/Seo";
 import { BlogPostSection } from "../styles/home.styled";
 import Post, { FeaturedPost } from "../components/Post";
 
+const MainWrapper = styled.main`
+  border: 1px solid #fff;
+  height: 100vh;
+`;
+
 const IndexPage = ({ data }) => {
   let posts = data.webiny.listPosts.data;
   const latestPost = posts[0];
@@ -12,7 +17,7 @@ const IndexPage = ({ data }) => {
   return (
     <React.Fragment>
       <Seo title="Holla Seo" />
-      <main style={{ border: "1px solid #fff", height: "100vh" }}>
+      <MainWrapper>
         <Header />
         <BlogPostSection>
           <FeaturedPost data={latestPost} />
@@ -20,7 +25,7 @@ const IndexPage = ({ data }) => {
             return <Post data={items} key={items.id} />;
           })}
         </BlogPostSection>
-      </main>
+      </MainWrapper>
     </React.Fragment>
   );
 };

@@ -62,7 +62,7 @@ export default function Post({
 }
 
 const FeaturedCard = styled.div`
-  width: 100% !important;
+  width: 100%;
   display: flex;
   height: 500px;
   border-radius: 20px;
