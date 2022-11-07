@@ -1,0 +1,40 @@
+{
+  "name": "gatsby-blog-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A blog template built with Gatsby and Webiny CMS",
+  "author": "kaf-lamed-beyt",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.1.4",
+    "@webiny/react-rich-text-renderer": "^5.33.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "dayjs": "^1.11.5",
+    "dotenv": "^16.0.3",
+    "gatsby": "^4.24.3",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^2.24.0",
+    "gatsby-plugin-mdx": "^4.3.0",
+    "gatsby-plugin-sass": "^5.24.0",
+    "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-plugin-styled-components": "^5.24.0",
+    "gatsby-remark-images": "^6.24.0",
+    "gatsby-source-filesystem": "^4.24.0",
+    "gatsby-source-graphql": "^4.24.0",
+    "gatsby-transformer-sharp": "^4.24.0",
+    "node-sass": "^7.0.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.6"
+  }
+}
