@@ -32,15 +32,11 @@ export default {
   buildModules: [
     '@nuxtjs/dotenv'
   ],
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     '@nuxtjs/axios',
-    ['nuxt-stripe-module', {
-      publishableKey: process.env.STRIPE_PK,
-    }]
   ],
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
@@ -51,7 +47,7 @@ export default {
       baseURL: process.env.WEBINYURL
     }
   },
-  env: {
-    STRIPE_PK: process.env.STRIPE_PK,
-  }
+  serverMiddleware: {
+    '/api': '~/api'
+  },
 }

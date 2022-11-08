@@ -44,7 +44,7 @@
             :cancelUrl="cancelUrl"
             @loading="(v) => (loading = v)"
           />
-          <button @click="checkout" class="btn btn-success">Checkout</button>
+          <button @click="checkout">Checkout</button>
         </div>
       </div>
     </div>
@@ -72,7 +72,10 @@ export default {
   components: {
     Navbar,
   },
-
+  async mounted() {
+    await this.createProductsFromCart();
+    await this.createPricesFromCart();
+  },
   methods: {
     incrementQuantity(product) {
       if (process.client) {
@@ -147,6 +150,71 @@ export default {
         return 0.0;
       }
     },
+    async createProductsFromCart() {
+      let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+      if (cartItems.length > 0) {
+        // loop through the cart items.
+        for (const item of cartItems) {
+          let response = await this.$axios.post(
+            "http://localhost:3000/api/create-product",
+            {
+              name: item.name,
+            }
+          );
+          // add the product id to cartItems . ..
+          cartItems = cartItems.map((cartItem) => {
+            if (cartItem.id == item.id) {
+              return {
+                ...cartItem,
+                productId: response.data.product.id,
+              };
+            } else {
+              return cartItem;
+            }
+          });
+        }
+        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+      }
+    },
+    async createPricesFromCart() {
+      let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+      if (cartItems.length > 0) {
+        // loop through the cart items.
+        for (const item of cartItems) {
+          let response = await this.$axios.post(
+            "http://localhost:3000/api/create-price",
+            {
+              amount: item.price,
+              productId: item.productId,
+            }
+          );
+          // add the product id to cartItems . ..
+          cartItems = cartItems.map((cartItem) => {
+            if (cartItem.id == item.id) {
+              return {
+                ...cartItem,
+                priceId: response.data.price.id,
+              };
+            } else {
+              return cartItem;
+            }
+          });
+        }
+        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+      }
+    },
+    async generatePaymentIntent() {
+      const paymentIntent = await this.$axios.post(
+        "http://localhost:3000/api/create-payment-intent",
+        {
+          items: JSON.parse(localStorage.getItem("cartItems")),
+        }
+      );
+      this.elementsOptions.clientSecret = paymentIntent.client_secret;
+    },
+    checkout() {
+      this.$refs.checkoutRef.redirectToCheckout();
+    },
   },
   data() {
     this.pk = process.env.STRIPE_PK;
@@ -158,12 +226,15 @@ export default {
         : [],
       successUrl: "http://localhost:3000/success",
       cancelUrl: "http://localhost:3000/error",
-      lineItems: [
-        {
-          price: "price_1Lu1SALgrWLHPoqoHbj9TZ9X", // The id of the one-time price you created in your Stripe dashboard
-          quantity: 1,
-        },
-      ],
+      lineItems: process.client
+        ? JSON.parse(localStorage.getItem("cartItems")).map((item) => {
+            console.log("on line items ", item);
+            return {
+              price: item.priceId,
+              quantity: item.quantity,
+            };
+          })
+        : [],
     };
   },
 };
