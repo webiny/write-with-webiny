@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --main: #fa5a28;
+  --bg-main: #050824;
+  --bg-secondary: #020412;
+  --alt-text: rgb(172, 168, 168);
+
+  /* spacings */
+  --desktop-pad: 0 80px 0 80px;
+  --mobile-xs-pad: 0 5px 0 5px;
+  --mobile-sm-pad: 0 10px 0 10px;
+  --mobile-md-pad: 0 55px 0 55px;
+  --blog-pad-desktop: 0 150px 0 150px;
+
+  /* fonts */
+  --muli: Muli, sans-serif;
+  --code-snippets: Roboto Mono, monospace;
+}
