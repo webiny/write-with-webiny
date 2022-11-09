@@ -132,7 +132,7 @@ export const FeaturedPost = ({
   },
 }) => {
   return (
-    <Link to={`${slug}${id}`} style={{ textDecoration: "none", color: "#fff" }}>
+    <Link to={slug} style={{ textDecoration: "none", color: "#fff" }}>
       <FeaturedCard>
         <div className="img-container">
           <img src={featuredImage} alt={`${title}'s cover`} />
