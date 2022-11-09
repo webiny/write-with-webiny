@@ -1,26 +1,6 @@
-// const { ListPosts } = require('./queries');
-// const { GraphQLClient } = require('graphql-request');
-
-// const endpoint = "https://d1hnid7bz3ttlg.cloudfront.net/cms/read/en-US";
-
-// const graphQLClient = new GraphQLClient(endpoint, {
-//     headers: {
-//       authorization: `Bearer ${process.env.DATOCMS_TOKEN}`,
-//     },
-//   })
-
-// const getPosts = async () => {
-//     try {
-//       console.log(graphQLClient)
-      
-//     } catch (e) {
-//       throw new Error('There was a problem getting Post', e);
-//     }
-//   };
-  
-//   exports.getPosts = getPosts;
-
+var dotenv = require(dotenv);
 var axios = require('axios');
+dotenv.config()
 var data = JSON.stringify({
   query: `{
   listPosts {
@@ -39,9 +19,9 @@ var data = JSON.stringify({
 
 var config = {
   method: 'post',
-  url: 'https://d1hnid7bz3ttlg.cloudfront.net/cms/read/en-US',
+  url: `${process.env.API_ENDPOINT}`,
   headers: {
-    'Authorization': 'Bearer accbb28065b320821c499da041ed0bb80f88faab1df8e661',
+    'Authorization': `Bearer ${process.env.WEBINY_TOKEN}`,
     'Accept': 'application/json',
     'Content-Type': 'application/json'
   },
