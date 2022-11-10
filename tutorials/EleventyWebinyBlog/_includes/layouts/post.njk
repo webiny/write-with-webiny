@@ -11,8 +11,7 @@ layout: layouts/base.njk
             <article class="content mt-5">
               <h1 class="title">{{ post.title }}</h1>
               <p class="subtitle is-6">
-                Author: {{post.author.name}}
-                {# <time datetime="{{ post.date }}">{{ post.date | readableDate }}</time> #}
+                Author: {{post.author.name}}     
               </p>
               {{ post.body | safe }}
             </article>
