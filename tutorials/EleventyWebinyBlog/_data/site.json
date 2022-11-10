@@ -1,6 +1,6 @@
 {
-  "title": "My Eleventy Blog",
+  "title": "Source Webiny Headless CMS",
   "url": "https://example.com/",
   "language": "en-US",
-  "description": "A simple blog with awesome content"
+ "description": "An Eleventy blog template for sourcing content from Webiny Headless CMS"
 }
