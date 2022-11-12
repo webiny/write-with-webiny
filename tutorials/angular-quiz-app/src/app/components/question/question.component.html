@@ -1,0 +1,35 @@
+<div class="question container">
+  <h2>{{quiz?.name}}</h2>
+  <p>{{quiz?.description}}</p>
+  <div class="question__body">
+    <h4>{{question?.title}}</h4>
+    <div class="question__bodyOpt">
+      <div *ngFor="let option of [
+        {label: 'A', value: question?.option1},
+        {label: 'B', value: question?.option2},
+        {label: 'C', value: question?.option3},
+        {label: 'D', value: question?.option4},
+      ]"
+      (click)="selectOption(option.value, question.answer, this.questionNumber)"
+      [ngClass]="{selected: selectedOption === option.value}">
+        <span>{{option.label}}.</span>{{option.value}}
+      </div>
+    </div>
+    <div class="question__btn">
+      <button
+        (click)="this.prevQuestion.emit()"
+        [disabled]="questionNumber === 1"><</button>
+      <span>{{questionNumber}}/{{quizLength}}</span>
+      <button
+        (click)="this.nextQuestion.emit()"
+        *ngIf="questionNumber !== quizLength"
+        [disabled]="questionNumber === quizLength">></button>
+      <button
+        class="question__submit"
+        (click)="score()"
+        *ngIf="questionNumber === quizLength">
+        Submit
+      </button>
+    </div>
+  </div>
+</div>

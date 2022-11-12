@@ -1,0 +1,38 @@
+.score {
+  margin-top: 30px;
+  text-align: center;
+}
+.score h2 {
+  font-size: 34px;
+}
+.score p {
+  color: rgb(73,80,87);
+  font-size: 18px;
+}
+.score__body {
+  background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+.score__details {
+  display: flex;
+  justify-content: space-between;
+}
+.score__details > div:first-child {
+  text-align: left;
+  color: rgb(73,80,87);
+  line-height: 30px;
+}
+.score__details > div:first-child span {
+  color: black;
+}
+.score__details > div:last-child span {
+  display: block;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: coral;
+  color: white;
+}

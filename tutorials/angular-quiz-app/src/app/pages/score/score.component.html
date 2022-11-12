@@ -1,0 +1,21 @@
+<div class="score container">
+  <h2>CSS Quiz</h2>
+  <p>A simple quiz to test your knowledge of CSS (Cascading style sheets)</p>
+  <div class="score__body">
+    <h3>Congratulation!!!</h3>
+    <p>Below are your details:</p>
+    <div class="score__details">
+      <div>
+        Total Questions Attempted: <span>{{score.attempts}}</span><br>
+        Total Wrong Answered: <span>{{score.wrongAnswers}}</span><br>
+        Total Correct Answers: <span>{{score.correctAnswers}}</span><br>
+      </div>
+      <div>
+        Score:
+        <span>
+          {{score.correctAnswers}}/{{score.quizLength}}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
