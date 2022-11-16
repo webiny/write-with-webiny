@@ -1,0 +1,24 @@
+Index: tutorials/hugo-blog/src/app.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// const { default: axios } = require('axios');\nimport axios from \"axios\";\nimport fs from 'fs'\n\n// make API request\naxios({\n  url: 'https://dgpcvq8nrbk6c.cloudfront.net/cms/read/en-US',\n  method: 'post',\n  headers: {\n    'Content-Type': 'application/json',\n    Authorization: `Bearer a0f773c90c50e07386af16891be07d32778569fd6efb8b1d`\n  },\n  data: {\n    query: `{\n        listPosts{\n          data{\n            id\n            title\n            slug\n            description\n            body\n            featuredImage\n            author{\n              name\n              coverImage\n              body\n            }\n          }\n        }\n      }\n      `\n  }\n}).then((myresult) => {\n  //get Response\n  var response = myresult.data\n\n  let json = [];\n  let result = [];\n  let bodyjson = []\n  //Strip the Json, Extract Data and format in MD\n  json = response.data.listPosts.data;\n  console.group(\"JSON Data\");\n  json.forEach((post) => {\n    result.push(\"---\")\n    result.push(\"title: \" + JSON.stringify(post.title)),\n      result.push(\"date:\" + \" 2022-10-06T11:39:16+03:00\")\n    result.push(\"draft:\" + \" true\")\n    result.push(\"---\")\n    result.push(\"# \" + post.slug),\n      result.push('![featuredImage](' + post.featuredImage + ')'),\n      result.push('\\n'),\n      result.push(\"### \" + post.description),\n      bodyjson = response.data.listPosts.data.body\n    bodyjson = post.body\n    bodyjson.forEach((body) => {\n      result.push(\"## \" + body.data.text)\n      result.push('![](' + body.data.file + ')')\n\n    }),\n      result.push(\"## Author:\" + post.author.name),\n      result.push('![mime](' + post.author.coverImage + ')')\n    console.log(post.body);\n  });\n  // update the flile blog.md\n  fs.writeFile(\"../content/posts/blog.md\", result.join('\\n'), function (err) {\n    if (err) {\n      console.log(err);\n    }\n  }),\n    console.log(+result.join('\\n'));\n}\n).catch((error) => {\n  console.log(error)\n})
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tutorials/hugo-blog/src/app.js b/tutorials/hugo-blog/src/app.js
+--- a/tutorials/hugo-blog/src/app.js	(revision 08c86e2b73fa9830bfead7e50fdb4fa365d7be86)
++++ b/tutorials/hugo-blog/src/app.js	(date 1668579070304)
+@@ -4,11 +4,11 @@
+ 
+ // make API request
+ axios({
+-  url: 'https://dgpcvq8nrbk6c.cloudfront.net/cms/read/en-US',
++  url: process.env.WEBINY_API
+   method: 'post',
+   headers: {
+     'Content-Type': 'application/json',
+-    Authorization: `Bearer a0f773c90c50e07386af16891be07d32778569fd6efb8b1d`
++    Authorization: `Bearer ${process.env.TOKEN}`
+   },
+   data: {
+     query: `{

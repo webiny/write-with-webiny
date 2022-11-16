@@ -1,0 +1,19 @@
+Index: tutorials/hugo-blog/src/app.js
+===================================================================
+diff --git a/tutorials/hugo-blog/src/app.js b/tutorials/hugo-blog/src/app.js
+--- a/tutorials/hugo-blog/src/app.js	
++++ b/tutorials/hugo-blog/src/app.js	
+@@ -4,11 +4,11 @@
+ 
+ // make API request
+ axios({
+-  url: 'https://dgpcvq8nrbk6c.cloudfront.net/cms/read/en-US',
++  url: process.env.WEBINY_API
+   method: 'post',
+   headers: {
+     'Content-Type': 'application/json',
+-    Authorization: `Bearer a0f773c90c50e07386af16891be07d32778569fd6efb8b1d`
++    Authorization: `Bearer ${process.env.TOKEN}`
+   },
+   data: {
+     query: `{

@@ -1,0 +1,30 @@
+/* dark.css */ 
+--font-color: #eee;
+--bg-color: #212121;
+
+--link-color:#599ada;
+--link-state-color:#ff5858;
+--link-state-border-color: rgba(238, 54, 54, 0.5);
+
+--thead-bg-color: #343a40;
+--table-border-color: lightgrey;
+
+--nav-bg-color: #242424;
+--nav-link-color: #b6b6b6;
+
+--pre-color: #f8f8f2;
+--pre-bg-color: #272822;
+
+--bq-color: #ccc;
+--hr-color: #333;
+
+--pagination-bg-color: #373737;
+--pagination-link-color: #b6b6b6;
+
+--post-info-color: grey;
+
+--switcher-color: #333;
+--switcher-bg-color: #fff;
+
+--svg-color: #ccc;
+--svg-state-color:#ff5858;
