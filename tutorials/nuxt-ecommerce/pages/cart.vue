@@ -156,7 +156,7 @@ export default {
         // loop through the cart items.
         for (const item of cartItems) {
           let response = await this.$axios.post(
-            "http://localhost:3000/api/create-product",
+            `${process.env.APP_URL}/api/create-product`,
             {
               name: item.name,
             }
@@ -182,7 +182,7 @@ export default {
         // loop through the cart items.
         for (const item of cartItems) {
           let response = await this.$axios.post(
-            "http://localhost:3000/api/create-price",
+            `${process.env.APP_URL}/api/create-price`,
             {
               amount: item.price,
               productId: item.productId,
@@ -205,7 +205,7 @@ export default {
     },
     async generatePaymentIntent() {
       const paymentIntent = await this.$axios.post(
-        "http://localhost:3000/api/create-payment-intent",
+        `${process.env.APP_URL}/api/create-payment-intent`,
         {
           items: JSON.parse(localStorage.getItem("cartItems")),
         }
@@ -224,8 +224,8 @@ export default {
           ? JSON.parse(localStorage.getItem("cartItems"))
           : []
         : [],
-      successUrl: "http://localhost:3000/success",
-      cancelUrl: "http://localhost:3000/error",
+      successUrl: `${process.env.APP_URL}/success`,
+      cancelUrl: `${process.env.APP_URL}/error`,
       lineItems: process.client
         ? JSON.parse(localStorage.getItem("cartItems")).map((item) => {
             console.log("on line items ", item);
