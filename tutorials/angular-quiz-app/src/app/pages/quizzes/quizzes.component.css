@@ -1,0 +1,23 @@
+.quizzes {
+  text-align: center;
+}
+.quizzes h2 {
+  font-size: 34px;
+  margin-top: 20px;
+}
+.quizzes p {
+  color: rgb(73,80,87);
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.quizzes__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+app-quiz-card {
+  display: flex;
+}
