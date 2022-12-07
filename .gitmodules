@@ -1,0 +1,3 @@
+[submodule "tutorials/scully-webiny-blog"]
+	path = tutorials/scully-webiny-blog
+	url = https://github.com/gracegitt/write-with-webiny.git
