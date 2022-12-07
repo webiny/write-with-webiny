@@ -120,3 +120,7 @@ Once you get the confirmation from the editorial team that your article is final
 - Webiny company full details (`Webiny Inc. 2140 South Dupont Highway, City of Camden, County of Kent 19934 Delaware`)
 - Amount and currency
 - Full bank details to receive the payment
+
+⚠️ **Authors based in Nigeria**
+
+We are aware of recent issues arising from changes in currency and payments to Nigeria. We can no longer use SWIFT to pay Nigerian bank accounts. Please check the [invoice template](https://docs.google.com/document/d/1UzELr0J_1HPANCIsZN2OZ_iAked9bmhv/edit?usp=sharing&ouid=116721299340563662134&rtpof=true&sd=true) and make sure you can comply with the requirements within before you agree to write with us.
