@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <div class="homepage-content">
+        {{ .Content }}
+    </div>
+
+    <div class="articles h-feed">
+        {{ $pages := where (where site.RegularPages "Type" "in" site.Params.mainSections) "Params.hidden" "!=" true }}
+        {{ range (.Paginate $pages).Pages }}
+            {{ partial "post-summary.html" . }}
+        {{ end }}
+        {{ partial "pagination.html" . }}
+    </div>
+
+{{ end }}

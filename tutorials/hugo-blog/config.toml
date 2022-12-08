@@ -1,0 +1,10 @@
+baseURL = '${process.env.BASE_URL}'
+languageCode = 'en-us'
+title = "The Coolest Blog"
+theme = "anubis"
+
+[menu]
+[[menu.main]]
+    identifier ='blog'
+    name = 'Blog'
+    url = '/Blog/'

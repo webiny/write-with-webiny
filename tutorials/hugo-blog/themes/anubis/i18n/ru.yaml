@@ -1,0 +1,47 @@
+powered:
+  other: "Движок"
+
+theme:
+  other: "тема"
+
+readMore:
+  other: "Читать дальше"
+
+toNewPosts:
+  other: "к новым записям"
+
+toOldPosts:
+  other: "к старым записям"
+
+tag:
+  other: "тег"
+
+Tags:
+  other: "Теги"
+
+Posts:
+  other: "Записи"
+
+category:
+  other: "Категория"
+
+Categories:
+  other: "Категории"
+
+toAllTags:
+  other: "ко списку всех тегов"
+
+toAllCategories:
+  other: "ко списку всех категорий"
+
+skipToContent:
+  other: "Перейти к основному контенту"
+
+darkTheme:
+  other: "Тёмная тема"
+
+lightTheme:
+  other: "Светлая тема"
+
+readNext:
+  other: "Читать далее"
