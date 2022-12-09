@@ -1,0 +1,38 @@
+.quizCard {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  text-align: left;
+  max-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.quizCard h3 {
+  font-weight: 400;
+}
+.quizCard p {
+  color: rgb(73,80,87);
+}
+.quizCard > span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: rgb(73,80,87);
+}
+.quizCard span span {
+  color: black;
+}
+.quizCard button {
+  padding: 5px 10px;
+  background-color: coral;
+  border-radius: inherit;
+  border: none;
+  color: white;
+  width: fit-content;
+}
+.quizCard button:hover {
+  background-color: rgb(254, 111, 59);
+}

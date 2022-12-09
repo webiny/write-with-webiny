@@ -1,0 +1,10 @@
+<div class="quiz">
+  <app-question
+    [question]="questions[questionNumber]"
+    [questionNumber]="questionNumber+1"
+    [quiz]="quiz"
+    [quizLength]="quizLength"
+    (nextQuestion)="this.goToNext()"
+    (prevQuestion)="this.goToPrevious()"
+  ></app-question>
+</div>

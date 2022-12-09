@@ -1,0 +1,6 @@
+<div class="quizCard">
+  <h3>{{quizData.name}}</h3>
+  <p>{{quizData.description}}</p>
+  <span>questions: <span>{{questionsLength}}</span></span>
+  <button [routerLink]="['quiz', quizData.id]">Take quiz</button>
+</div>

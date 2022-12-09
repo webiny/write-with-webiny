@@ -1,0 +1,7 @@
+<div class="quizzes container">
+  <h2>Take a Quiz</h2>
+  <p>Test your knowledge of any of the following quiz you are familiar with.</p>
+  <div class="quizzes__list" *ngFor="let quiz of quizzes">
+    <app-quiz-card [quizData]="quiz"></app-quiz-card>
+  </div>
+</div>

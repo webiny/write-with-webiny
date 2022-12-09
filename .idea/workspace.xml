@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6da40fa8-f1b7-4d40-89e1-d5c4854c21f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/.fleet/run.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/.hugo_build.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/content/posts/blog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/content/posts/my-first-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/content/posts/webiny.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/data/source.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/layouts/shortcodes/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/src/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/src/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/archetypes/default.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/assets/css/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/assets/css/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/assets/images/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/assets/js/copy-code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/data/social.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/about-subpage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/about-subpage2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/archives.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/homepage/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/homepage/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/homepage/work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/post/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/post/emoji-support.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/post/hidden-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/post/markdown-syntax.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/post/math-typesetting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/post/placeholder-text.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/content/post/rich-content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/netlify.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSite/static/fa-icons/docs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/_index.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/about-subpage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/about-subpage.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/about-subpage2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/about-subpage2.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/about.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/archives.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/homepage/about.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/homepage/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/homepage/work.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/_index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/_index.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/emoji-support.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/emoji-support.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/hidden-post.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/hidden-post.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/markdown-syntax.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/markdown-syntax.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/math-typesetting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/math-typesetting.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/placeholder-text.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/placeholder-text.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/rich-content.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/content/post/rich-content.pl.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/netlify.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/exampleSiteMultilingual/static/fa-icons/docs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/de.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/en.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/fr.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/id.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/pl.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/pt.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/ru.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/tw.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/i18n/zh-cn.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/images/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/images/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/_default/_markup/render-heading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/_default/baseof.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/_default/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/_default/rss.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/_default/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/_default/taxonomy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/_default/terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/disqus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/patreon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/reddit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/snapchat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/soundcloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/spotify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/twitch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/fa-icons/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/favicons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/font-awesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/footer-extra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/graphcomment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/h-card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/head-extra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/header-extra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/isso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/language-switcher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/mathjax_support.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/pagination-extra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/post-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/post-language-switcher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/post-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/post-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/resource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/site-title.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/social.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/theme-switcher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/title.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/partials/utterances.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/layouts/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/netlify.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/themes/anubis/theme.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hugo-blog/webpack.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="86d374a6968c05d744086082fd62d847847da749" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HJSGW27hcbUyC4UHs7406Y8a8l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/amenya/StudioProjects/write-with-webin/tutorials",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorials" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tutorials/hugo-blog" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6da40fa8-f1b7-4d40-89e1-d5c4854c21f7" name="Changes" comment="" />
+      <created>1668001598654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668001598654</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

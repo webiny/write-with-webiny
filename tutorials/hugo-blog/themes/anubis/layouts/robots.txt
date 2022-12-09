@@ -1,0 +1,7 @@
+User-agent: *
+# robotstxt.org - if environment is not `production` then robots will be disallowed.
+{{ if hugo.IsProduction }}
+  Disallow:
+{{ else }}
+  Disallow: /
+{{ end }}
