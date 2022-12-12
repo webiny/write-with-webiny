@@ -1,0 +1,19 @@
+<p>list works!</p>
+
+<ul>
+    <li *ngFor="let post of (posts | async)">
+      <a [routerLink]="post.route">
+        <span>
+          <img [src]="post['image']" />
+        </span>
+        
+        <span class="blog-meta-data">
+          <h1> {{post.title }}</h1> 
+         <span class="description">{{ ['description'] }}...</span>
+        <span class="link"><a [routerLink]="post.route">Read More </a></span>
+      </span>
+      </a>
+  </li>
+</ul>
+
+<pre>{{posts |async |json}}</pre>
