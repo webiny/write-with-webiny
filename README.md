@@ -1,3 +1,8 @@
+> **Note** - We are working on revamping the Write with Webiny program, and at the moment we are not accepting new applications.
+> Meanwhile, please feel free to join our [community Slack](#step-1-join-our-slack-community), we will post updates there once we resume accepting new applications; thank you!
+
+--- 
+
 <p align="center">
   <img src="./static/webiny-logo.svg" width="250">
   <br><br>
@@ -11,7 +16,6 @@
   <a href="https://twitter.com/WebinyCMS">Twitter</a>
 </p>
 <br>
-
 
 # Write with Webiny
 
