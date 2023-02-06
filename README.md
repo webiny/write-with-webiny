@@ -78,7 +78,7 @@ Here you can find all the news and updated regarding the program, plus have an e
 
 ### Step 2. Register your interest as a writer
 
-> **Note** - Thank you for expressing interest in the Write with Webiny program.
+> **Note** - ⚠️  Thank you for expressing interest in the Write with Webiny program.
 > We are now at full capacity and are not excepting new writer applications for the time being. Please monitor this space for further updates.
 
 If you are joining the program for the first time, please register as a new writer before submitting or picking out any content.
