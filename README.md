@@ -1,5 +1,5 @@
-> **Note** - We are working on revamping the Write with Webiny program, and at the moment we are not accepting new applications.
-> Meanwhile, please feel free to join our [community Slack](#step-1-join-our-slack-community), we will post updates there once we resume accepting new applications; thank you!
+> **Note** - Thank you for expressing interest in the Write with Webiny program.
+> We are now at full capacity and are not excepting new writer applications for the time being. Please monitor this space for further updates or simply > join the [community Slack](#step-1-join-our-slack-community) where we post all the announcements regarding the program. 
 
 --- 
 
@@ -78,7 +78,10 @@ Here you can find all the news and updated regarding the program, plus have an e
 
 ### Step 2. Register your interest as a writer
 
-If you are joining the program for the first time, please [register as a new writer](https://site.webiny.com/forms/write-with-webiny/) before submitting or picking out any content.
+> **Note** - Thank you for expressing interest in the Write with Webiny program.
+> We are now at full capacity and are not excepting new writer applications for the time being. Please monitor this space for further updates.
+
+If you are joining the program for the first time, please register as a new writer before submitting or picking out any content.
 
 We’ll set you up as a new writer, provide all the necessary information that you need to start writing, and answer any questions you may have.
 
