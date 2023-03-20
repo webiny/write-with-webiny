@@ -1,19 +1,13 @@
-<p>list works!</p>
-
-<ul>
-    <li *ngFor="let post of (posts | async)">
-      <a [routerLink]="post.route">
-        <span>
-          <img [src]="post['image']" />
-        </span>
-        
-        <span class="blog-meta-data">
-          <h1> {{post.title }}</h1> 
-         <span class="description">{{ ['description'] }}...</span>
-        <span class="link"><a [routerLink]="post.route">Read More </a></span>
-      </span>
-      </a>
-  </li>
-</ul>
-
-<pre>{{posts |async |json}}</pre>
+<div class="intro">
+  <h3>Scully Webiny Blog</h3>
+  <span>A simple blog built with Scully and Webiny</span>
+</div>
+<p>Recent Posts</p>
+<div class="post-wrapper" *ngFor="let post of (posts | async)">
+  <div class="post">
+    <h1>{{ post.title }}</h1>
+    <small>Date:{{ post.createdOn}}</small>
+    <a [routerLink]="['/blog' + post.data.slug]"><button class="submit-btn">Read article</button></a>
+  </div>
+</div>
+  
