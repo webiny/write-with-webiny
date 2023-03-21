@@ -33,15 +33,19 @@ export class PostService {
 
 
   }
-  getContentBySlug(slug: string): Observable<any> {
+  getContentById(postId: string): Observable<any> {
+
+    
     return this.apollo.watchQuery<any>({
       query: Get_Posts
     }).valueChanges.pipe(
       map((data: any) =>
-        data.items.find((item: ArticlePost) => item.slug === slug)
+        data.posts.find((post: ArticlePost) => post.id === postId)
       )
     );
   }
+
+
 
 
 
