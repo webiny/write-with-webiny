@@ -11,8 +11,9 @@ export const config: ScullyConfig = {
   outDir: './dist/static',
   
   routes: {
-    '/p/:postSlug': {
-      type: 'articlePostPlugin'
+    'blog/:postId': {
+      type: 'articlePostPlugin',
+
     }
   }
 };
