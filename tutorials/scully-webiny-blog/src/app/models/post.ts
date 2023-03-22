@@ -1,6 +1,6 @@
-export interface ArticlePost{
-    slug: string,
+export type ArticlePost = {
+    id: string,
     title: string,
-    image: string,
-    description: string
+    createdOn: string;
+    body: JSON,
 }
