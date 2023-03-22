@@ -7,15 +7,18 @@
                 </span>
                     </li>
                     <li>
-                <a [routerLink]='["/"]' [routerLinkActive]='["link.active"]' >
+                     <a [routerLink]='["/"]' [routerLinkActive]='["link.active"]' >
                     Home
                     </a>
-                    <a [routerLink]='["/blog"]' [routerLinkActive]='["link.active"]' >
-                        Post
+                    </li>
+                    <li>
+                        <a routerLink="blog/{{ postId }}">[routerLinkActive]='["link.active"]' >
+                        Blog
                         </a>
-            </li>
-            
-        
+                    </li>
+                    <li>
+                        <a>About us</a>
+                    </li>
             </ul>
         </nav>
         </header>
