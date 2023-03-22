@@ -10,28 +10,26 @@ import { PostService } from 'src/app/services/post.service';
 })
 export class BlogPostComponent implements OnInit {
 
-  postSlug:string | null;
+  postId:string | null;
   title: string | null;
-  image:string | null;
-  description:string |null;
+  body: string | null;
 
-  constructor(private contentService: PostService,
+  constructor(private postService: PostService,
     private route: ActivatedRoute) {
-      this.postSlug = this.route.snapshot.paramMap.get("postSlug");
+      
+      this.postId = this.route.snapshot.paramMap.get("postId");
       this.title = null;
-      this.image = null;
-      this.description = null;
+      this.body = null;
     }
 
   ngOnInit(): void {
-    const slug: string = this.postSlug ?? '';
+    const postId: string = this.postId ?? '';
 
-    this.contentService.getContentBySlug(slug).subscribe(
+    this.postService.getContentById(postId).subscribe(
       result => {
         const post:ArticlePost = result;
         this.title = post.title;
-        this.image = post.image;
-        this.description = post.description;
+        this.body = post.data.text;
 
       }
     );
