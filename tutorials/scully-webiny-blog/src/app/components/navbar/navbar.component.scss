@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(138, 128, 128);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+header li span{
+    font-size: larger;
+    color: rgb(21, 39, 39);
+    font-weight: bold;
+
+}
+
