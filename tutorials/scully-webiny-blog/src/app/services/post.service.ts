@@ -1,22 +1,28 @@
+import { HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { ApolloQueryResult } from '@apollo/client';
 import { isScullyGenerated,  TransferStateService  } from '@scullyio/ng-lib';
 import { gql, Apollo } from 'apollo-angular';
 import { map, Observable, tap } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { ArticlePost } from '../models/post';
 
 
 const Get_Posts = gql`
-query Data {
-    listArticlePosts {
+  query Data {
+    listArticlePosts{
       data {
         id
+        createdOn
         title
-        image
-        description
+        body
+
       }
-  }
-}
+    }
+    }
+
+
+
 `;
 
 @Injectable({
@@ -33,12 +39,16 @@ export class PostService {
 
 
   }
-  getContentBySlug(slug: string): Observable<any> {
+
+  
+  getContentById(postId: string): Observable<any> {
+
+    
     return this.apollo.watchQuery<any>({
       query: Get_Posts
     }).valueChanges.pipe(
       map((data: any) =>
-        data.items.find((item: ArticlePost) => item.slug === slug)
+        data.posts.find((post: ArticlePost) => post.id === postId)
       )
     );
   }
