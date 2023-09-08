@@ -1,0 +1,12 @@
+{
+  "home": "Accueil",
+  "blog": "Blog",
+  "welcome": "Bienvenue sur mon blog de nouilles",
+  "homeDescription": "Ce blog est consacré aux nouilles et aux nombreuses délicieuses recettes qui peuvent être préparées avec elles. Vous trouverez ici des recettes pour toutes sortes de nouilles, du traditionnel lo mein chinois aux plats de pâtes italiens. Il y en a pour tous les goûts, alors mettez-vous aux fourneaux et savourez les saveurs incroyables des nouilles !",
+  "multilingual": "BLOG MULTILINGUE en VUE js",
+  "english": "Anglais",
+  "french": "Français",
+  "selectLang": "Changer",
+  "loading": "Chargement...",
+  "error": "Une erreur est survenue..."
+}

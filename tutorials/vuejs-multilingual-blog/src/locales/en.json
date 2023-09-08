@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "blog": "Blog",
+  "welcome": "Welcome to My Noodle Blog",
+  "homeDescription": "This blog is all about noodles and the many delicious recipes that can be made using them. Here you'll find recipes for all kinds of noodles, from traditional Chinese lo mein to Italian pasta dishes. There's something for everyone, so get cooking and enjoy the amazing flavors of noodles!",
+  "multilingual": "VUE MULTILINGUAL BLOG",
+  "english": "English",
+  "french": "French",
+  "selectLang": "Select Language",
+  "loading": "Loading...",
+  "error": "An error occured..."
+}
