@@ -3,9 +3,8 @@ import router from './routes'
 import App from './App.vue'
 import i18n from './plugin/i18n'
 import { createApp, provide } from 'vue'
-
 import { DefaultApolloClient } from '@vue/apollo-composable'
-import client from './client.js'
+import client from './client'
 
 const app = createApp(App).provide(DefaultApolloClient, client)
 

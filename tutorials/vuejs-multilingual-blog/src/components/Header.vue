@@ -28,9 +28,6 @@ watchEffect(() => {
         <li class="hover:text-blue-500 cursor-pointer px-4 te uppercase text-gray-300">
           <router-link to="/">{{ t('home') }}</router-link>
         </li>
-        <li class="hover:text-blue-500 cursor-pointer px-4 uppercase text-gray-300">
-          <router-link to="/blog">{{ t('blog') }}</router-link>
-        </li>
         <li><LangSelector /></li>
       </ul>
     </nav>

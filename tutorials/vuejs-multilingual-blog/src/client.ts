@@ -4,9 +4,9 @@ import i18n from './plugin/i18n'
 let httpLink = ref()
 
 const apilink = computed(() =>
-  i18n.global.locale.value === 'en'
-    ? import.meta.env.VITE_WEBINY_API_EN
-    : import.meta.env.VITE_WEBINY_API_FR
+  i18n.global.locale.value === 'fr'
+    ? import.meta.env.VITE_WEBINY_API_FR
+    : import.meta.env.VITE_WEBINY_API_EN
 )
 const client = new ApolloClient({
   link: httpLink.value,

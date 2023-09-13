@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import i18n from '../plugin/i18n'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
