@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@500&display=swap");
+
+.Flat-section {
+  display: flex;
+  height: 800px;
+  font-family: "Mooli", sans-serif;
+  font-family: "Nunito", sans-serif;
+  .cover-1 {
+    border: 1px solid rgb(240, 239, 239);
+    width: 21%;
+    background-color: rgb(240, 239, 239);
+    padding: 20px 15px;
+
+    .name-section {
+      input {
+        width: 96%;
+        border-radius: 10px;
+        border: 1px solid rgb(240, 239, 239);
+        padding: 6px;
+      }
+    }
+
+    .price-section {
+      .price-input {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          input {
+            width: 75px;
+            border-radius: 10px;
+            border: 1px solid rgb(240, 239, 239);
+            padding: 8px;
+          }
+        }
+      }
+    }
+  }
+  .cover-2 {
+    border: 1px solid rgb(240, 239, 239);
+    width: 79%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .cards {
+      border: 1px solid rgb(240, 239, 239);
+      background-color: rgb(240, 239, 239);
+      border-radius: 15px;
+      margin: 20px;
+      width: 20%;
+      height: 350px;
+      img {
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+      }
+      h3 {
+        padding: 0 15px;
+      }
+      p {
+        padding: 0 15px;
+      }
+    }
+  }
+}

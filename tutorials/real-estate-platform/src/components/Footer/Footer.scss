@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@500&display=swap");
+
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Mooli", sans-serif;
+  font-family: "Nunito", sans-serif;
+
+  .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .social-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-icons li {
+    margin: 0;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-icons a:hover {
+    color: #ff5733; /* Change to your desired hover color */
+  }
+}
+}
+
+
