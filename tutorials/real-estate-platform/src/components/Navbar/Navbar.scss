@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@500&display=swap");
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Mooli", sans-serif;
+  font-family: "Nunito", sans-serif;
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    .logo1 {
+      width: 50px;
+      border-radius: 60px;
+    }
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-links a:hover {
+    color: #ff5733; /* Change to your desired hover color */
+  }
+}
+
+

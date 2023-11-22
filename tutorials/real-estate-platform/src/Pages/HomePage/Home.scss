@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:wght@500&display=swap");
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  background-image: url(../public/images/housing-pic2.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Make sure the background covers the entire viewport height */
+  font-family: "Mooli", sans-serif;
+  font-family: "Nunito", sans-serif;
+
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+
+    .background-logo {
+      .logo2 {
+        width: 150px;
+      }
+    }
+    .btns {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 50px;
+
+      button {
+        font-size: 16px;
+        padding: 20px 15px 20px 15px;
+        width: 210px;
+
+        .btn-f {
+          text-decoration: none;
+          color: black;
+          transition: color 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
